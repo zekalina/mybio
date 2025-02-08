@@ -144,7 +144,7 @@ footer {
     padding: 5px;
     background-color: #025505;
     color: white;
-    position: fixed;
+     position: relative; 
     bottom: 0;
     left: 0;
     right: 0;
