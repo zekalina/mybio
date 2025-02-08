@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 80px;
+    padding-bottom: 60px; 
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    position: relative; 
+}
+
+header {
+    background-color: #025505;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+}
+
+h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+img {
+    display: block;
+    max-width: 250px;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 5px solid #4CAF50;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+p {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #025505;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    padding-left: 25px;
+    position: relative;
+    color: #333;
+}
+
+section ul li::before {
+    content: "✔";
+    color: #4CAF50;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.2rem;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+form label {
+    font-size: 1.1rem;
+    color: #025505;
+    margin-bottom: 5px;
+    display: block;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+form button {
+    background-color: #025505;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #4CAF50;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #025505;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+}
+
+footer h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+}
+
+footer img:hover {
+    transform: scale(1.2);
+}
