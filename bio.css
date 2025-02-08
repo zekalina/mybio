@@ -8,6 +8,12 @@ body {
     line-height: 1.6;
     position: relative; 
 }
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
 
 header {
     background-color: #025505;
@@ -139,17 +145,16 @@ form button:hover {
     background-color: #4CAF50;
 }
 
+
+
 footer {
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     background-color: #025505;
     color: white;
-     position: relative; 
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000; 
+    width: 100%;
 }
+
 
 footer h1 {
     font-size: 20px;
